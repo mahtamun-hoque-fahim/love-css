@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    outline: none;
+    box-sizing: border-box;
+}
+body{
+  width: 100vw;
+  background:#FFDBE1;
+}
+a{
+  font-family: 'Akaya Telivigala';
+  color: black;
+  text-decoration: none;
+}
+.svg{
+  height: 100px;
+}
+.italic{
+  font-family: 'Akaya Telivigala';
+}
+.normal{
+  font-family: 'Roboto';
+}
+.poppins{
+  font-family: 'Poppins';
+}
+.logo-set{
+  padding: 10vh 5vw;
+}
+.section{
+  padding: 10vh 4vw;
+  line-height: 4vh;
+}
+.spaced{
+  padding: 3vh;
+}
+.sec-pic{
+  font-size: 200px;
+  text-align: center;
+  margin:auto auto;
+}
+#nav-area{
+
+}
+.nav-set{
+  display: inline-block;
+  padding: 0 1vw;
+
+}
+#other-options{
+  position: absolute;
+  top: 10vh;
+  left: 70vw;
+}
+#master-div{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.inline{
+  
+}
+#section1{
+  text-align: left;
+}
+#section2{
+  text-align: right;
+
+}
+#section3{
+  text-align: left;
+  /* color: #e7e7e7; */
+}
+.pic3{
+  /* color: #e7e7e7; */
+}
+#section4{
+  text-align: right;
+  /* color: #eeeeee; */
+}
+.pic4{
+  /* color: #eeeeee; */
+}
+#section5{
+  /* color: white; */
+  text-align: left;
+}
+.pic5{
+  /* color: white; */
+}
+.crack{
+  height: 50vh;
+}
+#attribution{
+  text-align: center;
+  bottom: 0%;
+  padding: 3vh;
+  position:fixed;
+  width: 100%;
+  background:#ffbec9;
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+}
+#attribution .poppins{
+  color: #0E2A47;
+  display: inline-block;
+  font-weight: bolder ;
+
+}
+
+@media only-screen and (max-width:600px){
+  
+}
